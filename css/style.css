@@ -45,12 +45,14 @@ input[type='text'] {
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    font-size: 3em;
+    letter-spacing: 1.8em;
 }
 
 input[type='text']:focus {
     background-color: #3D4153;
     color: #fff;
-    font-size: 20px;
+    font-size: 3.2em;
 }
 
 .numbers {
@@ -100,10 +102,11 @@ input[type='text']:focus {
     color: #fff;
     text-align: center;
     margin: 0 auto;
-    background: #222436;
     margin-top: 20px;
     border-radius: 15px;
+    border: none;
     padding: 5px 20px;
+    display: none;
 }
 
 .notify-section {
@@ -114,4 +117,12 @@ input[type='text']:focus {
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
+}
+
+#notify-fail {
+    background-color: red;
+}
+
+#notify-success {
+    background-color: green;
 }
