@@ -44,15 +44,15 @@ input[type='text'] {
     margin: 0 auto;
     border: 2px solid #858299;
     height: 50px;
+    font-size: 2em;
     padding: 10px;
-    font-size: 2.9em;
-    letter-spacing: 1.8em;
+    text-align: center;
+
 }
 
 input[type='text']:focus {
     background-color: #3D4153;
     color: #fff;
-    font-size: 3em;
 }
 
 .numbers {
@@ -110,7 +110,7 @@ input[type='text']:focus {
 }
 
 .notify-section {
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
 }
 
