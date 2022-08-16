@@ -37,6 +37,7 @@ function verifyPin() {
     if (pin == typedNumbers) {
         successMessage.style.display = 'block';
         failError.style.display = 'none';
+        document.location = 'account.html';
     }
     else {
         successMessage.style.display = 'none';
